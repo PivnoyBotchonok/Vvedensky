@@ -17,6 +17,7 @@
 
 ### 3. Настройка подключения
 1. Найдите в проекте файл `App.config`
+
 ![Импорт БД](https://github.com/user-attachments/assets/e3f7ea18-c9db-4a11-bc38-10bd30bdaa9b)
    
 2. Замените имя сервера на свое:
@@ -26,6 +27,10 @@
      <add name="MyDB" connectionString="Server=ВАШ_СЕРВЕР;..." />
    </connectionStrings>
    ```
+   Имя Сервера можно чекнуть здесь:
+   
+![image](https://github.com/user-attachments/assets/749fed88-91b6-41ea-9c90-fb550b317273)
+
 3. Тестирование приложения
    Запустите проект (F5)
    Проверьте:
@@ -37,6 +42,7 @@
 ### 1. Зайти в пк под админа Пароль: `Baltimor1152262`
 ### 2. Зайти на локальный сервер
 Примерно будет так:
+
 ![image](https://github.com/user-attachments/assets/51f1b026-b8e9-4cdb-9c92-28cda6222343)
 ### 3. Закинуть бд как делал дома
 ### 4. Зайти в проекте в файл App.Config и поменять сервер на сервер масловой
