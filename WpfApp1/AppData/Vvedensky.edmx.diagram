@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="501b6afbc3614c7f8a5d069e4e28c7da" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="VvedenskyModel.Client" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.Flat" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.House" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.Region" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.Rieltor" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.Role" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VvedenskyModel.Trade" Width="1.5" PointX="7.5" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="VvedenskyModel.FK_Client_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Flat_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_House_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Region_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Trade_Flat" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Trade_House" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Trade_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Rieltor_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="VvedenskyModel.FK_Trade_Rieltor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
